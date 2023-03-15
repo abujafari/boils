@@ -1,0 +1,15 @@
+# Nginx Proxy Manager boilerplate
+
+
+
+first run this:
+
+``` bash
+docker network create proxy
+```
+
+and then run:
+
+``` bash
+docker compose up -d
+```
