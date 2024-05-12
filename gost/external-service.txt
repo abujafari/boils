@@ -1,0 +1,12 @@
+[Unit]
+Description=GO Simple Tunnel
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+ExecStart=/snap/bin/gost -L=ws://peter:parker2024@:4444
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
