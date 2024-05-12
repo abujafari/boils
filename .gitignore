@@ -1,3 +1,4 @@
 /wordpress/db
 /wordpress/logs/nginx
 /wordpress/src
+/wordpress/certbot
